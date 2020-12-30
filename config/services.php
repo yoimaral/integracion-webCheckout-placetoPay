@@ -30,4 +30,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+        'placetopay'=> [
+        'endpoint_base' => env('PASARELA_ENDPOINT_BASE'),
+        'login' => env('PASARELA_LOGIN'),
+        'secret_key' => env('PASARELA_SECRETKEY')
+    ],
+
+
 ];
